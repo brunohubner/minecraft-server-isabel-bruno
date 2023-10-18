@@ -5,4 +5,5 @@
 !/data/*.yml
 !/data/*.yaml
 !/data/*.properties
+!/data/*.env
 !/data/*.png

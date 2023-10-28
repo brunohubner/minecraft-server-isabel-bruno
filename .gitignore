@@ -9,3 +9,5 @@
 !/data/*.properties
 !/data/*.env
 !/data/*.png
+
+/data/*.tmp.*

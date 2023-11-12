@@ -89,7 +89,7 @@ world-settings:
       tick-inactive-villagers: true
       ignore-spectators: false
     entity-tracking-range:
-      players: 256 # 48 default
+      players: 384 # 48 default
       animals: 128 # 48 default
       monsters: 128 # 48 default
       misc: 32

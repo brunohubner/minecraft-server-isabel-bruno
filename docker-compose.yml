@@ -8,7 +8,7 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
-      MEMORY: 3072M
+      MEMORY: 6G
       VERSION: '1.20.1'
       TYPE: SPIGOT
     tty: true
@@ -22,11 +22,8 @@ services:
     deploy:
       resources:
         limits:
-          memory: 3584M
-          cpus: "4.0"
-        reservations:
-          memory: 2048M
-          cpus: "2.5"
+          memory: 7G
+          cpus: "7.0"
 
 networks:
   minecraft-server-isabel-bruno:

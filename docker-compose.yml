@@ -13,17 +13,11 @@ services:
       TYPE: SPIGOT
     tty: true
     stdin_open: true
-    restart: always
+    restart: unless-stopped
     volumes:
       - ./data:/data
     networks: 
       - minecraft-server-isabel-bruno
-
-    deploy:
-      resources:
-        limits:
-          memory: 7G
-          cpus: "7.0"
 
 networks:
   minecraft-server-isabel-bruno:

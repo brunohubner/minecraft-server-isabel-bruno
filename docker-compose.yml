@@ -19,12 +19,6 @@ services:
     networks: 
       - minecraft-server-isabel-bruno
 
-    deploy:
-      resources:
-        limits:
-          memory: 12G
-          cpus: "6.0"
-
 networks:
   minecraft-server-isabel-bruno:
     driver: bridge

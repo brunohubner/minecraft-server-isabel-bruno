@@ -8,16 +8,25 @@ services:
       - 25565:25565
     environment:
       EULA: "TRUE"
-      MEMORY: 8G
+      MEMORY: 3072M
       VERSION: '1.20.1'
       TYPE: SPIGOT
     tty: true
     stdin_open: true
-    # restart: unless-stopped
+    restart: always
     volumes:
       - ./data:/data
     networks: 
       - minecraft-server-isabel-bruno
+
+    deploy:
+      resources:
+        limits:
+          memory: 3584M
+          cpus: "4.0"
+        reservations:
+          memory: 2048M
+          cpus: "2.5"
 
 networks:
   minecraft-server-isabel-bruno:

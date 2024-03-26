@@ -5,19 +5,28 @@ services:
     container_name: minecraft-server-isabel-bruno
     image: itzg/minecraft-server:java17-jdk
     ports:
-      - 25565:25565
+      - 1704:25565
+
     environment:
       EULA: "TRUE"
-      MEMORY: 8G
+      MEMORY: 6G
       VERSION: '1.20.1'
       TYPE: SPIGOT
+
     tty: true
     stdin_open: true
-    # restart: always
+    restart: unless-stopped
+
     volumes:
       - ./data:/data
     networks: 
       - minecraft-server-isabel-bruno
+
+    deploy:
+      resources:
+        limits:
+          memory: 8G
+          cpus: '2.0'
 
 networks:
   minecraft-server-isabel-bruno:

@@ -11,12 +11,19 @@
 # Forums: http://www.spigotmc.org/
 
 messages:
-  whitelist: You are not whitelisted on this server!
-  unknown-command: Unknown command. Type "/help" for help.
-  server-full: The server is full!
-  outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
-  restart: Server is restarting
+  # whitelist: You are not whitelisted on this server!
+  # unknown-command: Unknown command. Type "/help" for help.
+  # server-full: The server is full!
+  # outdated-client: Outdated client! Please use {0}
+  # outdated-server: Outdated server! I'm still on {0}
+  # restart: Server is restarting
+
+  whitelist: Você não está na whitelist deste servidor!
+  unknown-command: Comando desconhecido. Digite "/help" para ajuda.
+  server-full: O servidor está cheio!
+  outdated-client: Seu jogo está desatualizado! Por favor use a versão {0}
+  outdated-server: O servidor está desatualizado! Ainda estou na versão {0}
+  restart: O servidor está reiniciando...
 settings:
   sample-count: 12
   bungeecord: false
@@ -132,8 +139,8 @@ world-settings:
     max-tick-time:
       tile: 50
       entity: 50
-    view-distance: default
-    simulation-distance: default
+    view-distance: 24
+    simulation-distance: 12
     thunder-chance: 100000
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true

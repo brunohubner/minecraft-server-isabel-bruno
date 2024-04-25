@@ -1,0 +1,66 @@
+Warps:
+  casa:
+    name: casa
+    owner: 8e4adb6b-01d3-4bb9-9c10-f5bca46cd641
+    ownername: Santhor01
+    count: true
+    loc:
+      x: 490.2976124317368
+      y: 97.0625
+      z: 242.73257298428308
+      pitch: 3.6951902
+      yaw: 87.59436
+      world: world
+    welcome: 'Teleportado para a sua casa '
+  xp:
+    name: xp
+    owner: 8e4adb6b-01d3-4bb9-9c10-f5bca46cd641
+    ownername: Santhor01
+    count: true
+    loc:
+      x: 1350.5
+      y: 95.0
+      z: 1011.5
+      pitch: 13.491633
+      yaw: -172.67778
+      world: world
+    welcome: 'Teleportado para a Trap de XP no mar '
+  slime:
+    name: slime
+    owner: 8e4adb6b-01d3-4bb9-9c10-f5bca46cd641
+    ownername: Santhor01
+    count: true
+    loc:
+      x: -973.5299558099961
+      y: 22.0
+      z: 325.4312041606075
+      pitch: -2.1549304
+      yaw: -89.389305
+      world: world
+    welcome: 'Teleportado para a Trap de Slime debaixo do mar '
+  spaw:
+    name: spaw
+    owner: 8e4adb6b-01d3-4bb9-9c10-f5bca46cd641
+    ownername: Santhor01
+    count: true
+    loc:
+      x: -3.3499824567584486
+      y: 114.0
+      z: 1.8778772733775628
+      pitch: 1.2735307
+      yaw: -5.18515
+      world: world
+    welcome: 'Teleportado para o ponto Zero do mundo '
+  bel:
+    name: bel
+    owner: 8e4adb6b-01d3-4bb9-9c10-f5bca46cd641
+    ownername: Santhor01
+    count: true
+    loc:
+      x: 366.6060668672459
+      y: 152.0
+      z: 223.43139560915716
+      pitch: 87.95774
+      yaw: -92.373566
+      world: world
+    welcome: 'Teleportado para a estátua da gata '

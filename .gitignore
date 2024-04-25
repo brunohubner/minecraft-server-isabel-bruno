@@ -10,4 +10,6 @@
 !/data/*.env
 !/data/*.png
 
+!/data/plugins/
+
 /data/*.tmp.*
